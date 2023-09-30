@@ -10,8 +10,20 @@ iframe {
 #about-area {
   padding-top: 100px;
 }
+@media only screen and (min-width: 360px) and (max-width: 800px) {
+  #about-area {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  } 
+}
 #services {
   padding-top: 100px;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 800px) {
+    #services {
+      padding-top: 0px;
+  } 
 }
 
 /* .video-area {
@@ -3572,6 +3584,7 @@ hr {
   /* line 58, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption span {
     font-size: 33px;
+    margin-top: 400px;
   }
 }
 
@@ -4332,7 +4345,7 @@ hr {
   /* line 52, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_about.scss */
   .about-area2 .support-wrapper .right-content2 {
     width: 100%;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     margin-left: 20px;
     margin-right: 20px;
   }
