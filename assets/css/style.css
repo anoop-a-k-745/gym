@@ -3016,7 +3016,7 @@ hr {
 
 /* line 899, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
 .section-tittle h2 {
-  font-size: 140px;
+  font-size: 90px;
   display: block;
   color: #2c234d;
   font-weight: 700;
@@ -3517,6 +3517,7 @@ hr {
 /* line 44, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption {
   overflow: hidden;
+  margin-top: -200px ;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -4754,7 +4755,7 @@ hr {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 40px;
   display: inline-block;
   text-align: center;
